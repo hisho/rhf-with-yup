@@ -12,6 +12,9 @@ export default defineConfig({
   },
   server: {
     open: true,
+    watch: {
+      usePolling: true,
+    },
   },
   plugins: [react()],
   resolve: {
